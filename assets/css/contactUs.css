@@ -1,0 +1,19 @@
+            .conatct-banner {
+                background: url('../images/contact\ us.svg') no-repeat;
+                background-size: cover;
+                height: 372px;
+                width: 100%;
+            }
+            
+            .conatct-banner h1 {
+                font-size: 56px;
+            }
+            
+            @media(max-width:768px) {
+                .conatct-banner h1 {
+                    font-size: 25px !important;
+                }
+                .conatct-banner {
+                    height: auto !important;
+                }
+            }
